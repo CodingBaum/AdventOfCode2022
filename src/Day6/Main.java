@@ -14,7 +14,6 @@ public class Main {
 
         String[] list = new String[14];
         for (int i = 0; i < input.length(); i++) {
-            System.out.println(Arrays.toString(list));
             if (i < 14) {
                 list[i] = input.charAt(i) + "";
             } else {
